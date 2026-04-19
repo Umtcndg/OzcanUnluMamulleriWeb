@@ -1,5 +1,4 @@
 
-/*TABLET DEVICE*/
 @media only screen and (max-width:768px) { 
 .navbar-brand img {margin-left:10px; }
 .navbar-default .navbar-nav > li > a {
@@ -19,7 +18,6 @@
 }
 
 
-/*MOBILE 480PX DEVICE*/
 @media only screen and (max-width:480px) { 
 .navbar-default .navbar-nav > li > a { color: #313131  !important }
 .menu-top {
@@ -59,14 +57,12 @@ width: 100%;
 }
 
 
-/*IPHONE 375PX DEVICE*/
 @media only screen and (max-width:375px) { 
 .single_property_price span {margin-left: 0;}
 
 }
 
 
-/*MOBILE 360PX DEVICE*/
 @media only screen and (max-width:360px) { 
 .hero-text h2 {
 font-size: 26px;
@@ -81,7 +77,6 @@ line-height: 34px;
 }
 
 
-/*MOBILE 320PX DEVICE*/
 @media only screen and (max-width:320px) { 
 .error_page h1 { font-size: 150px }
 .footer_social ul li a {

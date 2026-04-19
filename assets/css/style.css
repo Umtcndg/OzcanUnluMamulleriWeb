@@ -1,36 +1,3 @@
-/*
-Author       : Theme_Ocean.
-Template Name: Hilux - Real Estate HTML Template 
-Version      : 1.0
-*/
-/*=============================================================
-    CSS INDEX
-    =============================
-    01. GENERAL STYLE (body, link color, section-title, preloader btn, overlay, section-padding etc)
-    02. START BOOTSTRAP NAVIGATION OVERRIDES
-    03. START HOME DESIGN
-    04. START PROPERTY DESIGN
-    05. START ABOUT US DESIGN
-    06. START HOW IT WORKS DESIGN
-    07. START TEAM DESIGN
-    08. START OUR AGENTS DESIGN
-    09. START PORTFOLIO DESIGN
-    10. START TESTIMONIAL DESIGN
-    11. START BLOG DESIGN
-    12. START 404 PAGE
-    13. START NEWSLETTER DESIGN
-    14. START FAQ DESIGN
-    15. START LOGIN AND REGISTER PAGE DESIGN
-    16. START CONTACT FORM DESIGN
-    17. START FOOTER TOP DESIGN
-    18. START FOOTER DESIGN
-    19. START SECTION TOP DESIGN
-  =============================================================*/
-/*
-* ----------------------------------------------------------------------------------------
-* 01.GENERAL STYLE
-* ----------------------------------------------------------------------------------------
-*/
 body {
 color: #000;
 font-family: 'Exo', sans-serif;
@@ -88,7 +55,6 @@ fieldset {
     margin: 0 auto;
     padding: 0;
 }
-/*START PRELOADER DESIGN*/
 .preloader {
     background: #fff;
     bottom: 0;
@@ -140,9 +106,7 @@ fieldset {
     }
 }
 .no-padding { padding: 0 }
-/*END PRELOADER DESIGN*/
 .section-padding { padding:80px 0 }
-/*START SECTION TITLE DESIGN*/
 .section-title { margin-bottom: 60px }
 .section-title h2 {
 	margin-bottom: 0;
@@ -159,8 +123,6 @@ margin: 20px auto 0;
 overflow: hidden;
 width: 50px;
 }
-/*END SECTION TITLE DESIGN*/
-/*START SCROLL TO TOP*/
 .topcontrol {
 background: #8C5A3C none repeat scroll 0 0;
 border-radius: 5px;
@@ -185,19 +147,6 @@ width: 35px;
     background: #222;
     color: #fff;
 }
-/*END SCROLL TO TOP*/
-/*
-* ----------------------------------------------------------------------------------------
-* 01.END GENERAL STYLE
-* ----------------------------------------------------------------------------------------
-*/
-
-/*
-* ----------------------------------------------------------------------------------------
-* 02.START BOOTSTRAP NAVIGATION OVERRIDES
-* ----------------------------------------------------------------------------------------
-*/
-
 .navbar-default {
     background: #fff;
     border: medium none;
@@ -249,7 +198,6 @@ width: 35px;
     padding: 10px 0;
     width: 100%;
 }
-/*START DROPDOWN MENU*/
 .menu_dropdown  ul { list-style-type: none }
 .menu_dropdown  li ul.sub-menu,
 .menu_dropdown  ul li ul.sub-menu li ul.sub-menu {
@@ -307,23 +255,12 @@ text-transform: uppercase;
     color: #8C5A3C!important;
     text-decoration: none;
 }
-/*END DROPDOWN MENU*/
 .navbar-default.menu-shrink li a { color: #282828 !important }
 .navbar-default.menu-shrink li a:hover { color: #8C5A3C !important }
 .navbar-default .navbar-toggle { background: #fff none repeat scroll 0 0 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus { background-color: #fff }
 .navbar-default .navbar-toggle .icon-bar { background-color: #8C5A3C }
-/*
-* ----------------------------------------------------------------------------------------
-* 02.END BOOTSTRAP NAVIGATION OVERRIDES
-* ----------------------------------------------------------------------------------------
-*/
-/*
-* ----------------------------------------------------------------------------------------
-* 03.START HOME DESIGN
-* ----------------------------------------------------------------------------------------
-*/
 .home_bg {
     height: 700px;
     position: relative;
@@ -376,7 +313,6 @@ width:100%;
 height:650px;
 }
 
-/*START HOME SLIDER DESIGN*/
 .flexslider .slides > li:first-child {
 	display: block; 
 }
@@ -454,12 +390,6 @@ height:650px;
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
-/*END HOME SLIDER DESIGN*/
-/*
-* ----------------------------------------------------------------------------------------
-* 03.END HOME DESIGN
-* ----------------------------------------------------------------------------------------
-*/
 .search_bar{}
 .single_search{}
 .single_search select {
@@ -496,11 +426,6 @@ height:650px;
     border: 1px solid #1d293e;
     color: #fff;
 }
-/*
-* ----------------------------------------------------------------------------------------
-* 04.START PROPERTY DESIGN
-* ----------------------------------------------------------------------------------------
-*/
 .template_property {
     background: #BABF94;
     padding-top: 80px;
@@ -581,7 +506,6 @@ margin-bottom:20px;
         color: #fff;
     }
 .single_property_description i{color:#fff;margin-right:3px;}
-/*ABOUT SLIDER*/
 .property_single_details_slide{}
 
 
@@ -735,18 +659,6 @@ text-align: center;
     opacity: .25;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
 }
-/*ABOUT SLIDER*/
-/*
-* ----------------------------------------------------------------------------------------
-* 04.END PROPERTY DESIGN
-* ----------------------------------------------------------------------------------------
-*/
-
-/*
-* ----------------------------------------------------------------------------------------
-* 05.START ABOUT US DESIGN
-* ----------------------------------------------------------------------------------------
-*/
 .about-us-content h2 {
 	font-size: 40px;
 	margin: 0 0 25px;
@@ -789,17 +701,6 @@ margin-bottom: 30px;}
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-/*
-* ----------------------------------------------------------------------------------------
-* 05.END ABOUT US DESIGN
-* ----------------------------------------------------------------------------------------
-*/
-
-/*
-* ----------------------------------------------------------------------------------------
-* 09.START PORTFOLIO DESIGN
-* ----------------------------------------------------------------------------------------
-*/
 .works_area{padding-top:60px;padding-bottom:50px;}
 .portfolio-filters { margin-bottom: 60px }
     .portfolio-filters li.active {
@@ -980,16 +881,6 @@ transition: all 0.2s ease 0s;
     color: #fff;
     border: 1px solid #1d293e!important;
 }
-/*
-* ----------------------------------------------------------------------------------------
-* 09.END PORTFOLIO DESIGN
-* ----------------------------------------------------------------------------------------
-*/
-/*
- * ----------------------------------------------------------------------------------------
- *10.START TESTIMONIAL DESIGN
- * ----------------------------------------------------------------------------------------
- */
 .our_testimonial {
 position: relative;
 padding:120px 0;
@@ -1108,29 +999,16 @@ color:#fff;
 	-moz-transition: 0.3s;
 	-o-transition: 0.3s;
 }
-/*
- * ----------------------------------------------------------------------------------------
- * 10.END TESTIMONIAL DESIGN
- * ----------------------------------------------------------------------------------------
- */
-
-/*
-* ----------------------------------------------------------------------------------------
-* 13.START NEWSLETTER DESIGN
-* ----------------------------------------------------------------------------------------
-*/
 .newsletter {
     background: #8C5A3C;
 }
 .newsletter h3{
     color: #fff !important;
 }
-/*START PARTNER LOGO DESIGN*/
 .partner {
 margin-bottom: 60px;
 text-align: center;
 }
-/*END PARTNER LOGO DESIGN*/
 .signup_form h3 {
 color: #fff;
 font-size: 36px;
@@ -1169,17 +1047,6 @@ margin-bottom: 30px;
     background: #fff;
     color: #1d293e;
 }
-/*
-* ----------------------------------------------------------------------------------------
-* 13.END NEWSLETTER DESIGN
-* ----------------------------------------------------------------------------------------
-*/
-
-/*
-* ----------------------------------------------------------------------------------------
-* 17.START FOOTER TOP DESIGN
-* ----------------------------------------------------------------------------------------
-*/
 .footer-area {
     position: relative;
     background-image: url(../img/bg/footer2.png);
@@ -1195,7 +1062,6 @@ margin-bottom: 30px;
 	text-transform: uppercase;
 	font-weight: 600;
 }
-/*START FOOTER CONTACT*/
 .footer_contact ul li {
     color: #fff;
     overflow: hidden;
@@ -1216,7 +1082,6 @@ line-height: 40px;
 margin-right: 15px;
 text-align: center;
 }
-/*END FOOTER CONTACT*/
 .single_footer ul{}
 .single_footer ul li{}
 .single_footer ul li a {
@@ -1230,16 +1095,6 @@ text-align: center;
     .single_footer ul li a:hover {
         color: #546B41;
     }
-/*
-* ----------------------------------------------------------------------------------------
-* 17.START FOOTER TOP DESIGN
-* ----------------------------------------------------------------------------------------
-*/
-/*
-* ----------------------------------------------------------------------------------------
-* 18.START FOOTER DESIGN
-* ----------------------------------------------------------------------------------------
-*/
 .footer {
     background-color: #1f1f1f;
     padding: 20px 0;
@@ -1252,16 +1107,6 @@ text-align: center;
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
 	padding-top: 60px;
 }
-/*
-* ----------------------------------------------------------------------------------------
-* 18.END FOOTER DESIGN
-* ----------------------------------------------------------------------------------------
-*/
-/*
- * ----------------------------------------------------------------------------------------
- * 19.START SECTION TOP DESIGN
- * ----------------------------------------------------------------------------------------
- */
 .section-top {
     background: #8C5A3C;
     padding-bottom: 120px;
@@ -1289,11 +1134,6 @@ text-align: center;
 color: #fff !important;
  }
 .section-top-title ol li a:hover { color: #8C5A3C!important }
-/*
- * ----------------------------------------------------------------------------------------
- * 19.END SECTION TOP DESIGN
- * ----------------------------------------------------------------------------------------
-*/
 .bigicon{
     font-size: 48px;
 }

@@ -15,16 +15,7 @@
 		      
 		jQuery('#gallery .row').mixitup({
 			targetSelector: '.mix',
-		});		
-		$("a[class^='prettyPhoto']").prettyPhoto();
-		      		
-		 $("a[data-rel^='prettyPhoto']").prettyPhoto();				 
-		 $('#projectModal').on('shown.bs.modal', function () {
-		  $('#myInput').focus()
-		 })
-		$('.video-play').magnificPopup({
-            type: 'iframe'
-        });
+		});
 		      		
 		$('.partner').owlCarousel({
 		  autoPlay: 9000,             
